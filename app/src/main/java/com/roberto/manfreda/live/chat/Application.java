@@ -9,8 +9,7 @@ import com.roberto.manfreda.live.chat.persistence.VolatileModel;
 import java.lang.ref.WeakReference;
 
 public class Application extends android.app.Application {
-
-    public static final String TAG = Application.class.getSimpleName();
+    protected static final String TAG = Application.class.getSimpleName();
 
     private static WeakReference<Application> singleton;
     private Activity currentActivity = null;

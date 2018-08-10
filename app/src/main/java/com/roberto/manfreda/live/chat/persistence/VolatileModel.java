@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class VolatileModel {
+    protected static final String TAG = VolatileModel.class.getSimpleName();
 
     private final Map<String, Object> beansMap = new HashMap<>();
 

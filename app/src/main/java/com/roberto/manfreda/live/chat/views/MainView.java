@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import com.roberto.manfreda.live.chat.R;
 
 public class MainView extends Fragment {
+    protected static final String TAG = MainView.class.getSimpleName();
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
